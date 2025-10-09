@@ -1,0 +1,47 @@
+<h2>Contact Support</h2>
+
+<form (ngSubmit)="submitForm()" #supportForm="ngForm" class="mt-3">
+  <div class="mb-3">
+    <label for="name" class="form-label">Your Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      name="name"
+      [(ngModel)]="formData.name"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="email" class="form-label">Your Email</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      [(ngModel)]="formData.email"
+      required
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea
+      id="message"
+      class="form-control"
+      name="message"
+      [(ngModel)]="formData.message"
+      required
+      rows="5"
+    ></textarea>
+  </div>
+
+  <button type="submit" class="btn btn-primary" [disabled]="!supportForm.form.valid">
+    Submit
+  </button>
+</form>
+
+<div *ngIf="submitted" class="alert alert-success mt-3">
+  ✅ Your message has been sent! We'll get back to you shortly.
+</div>
