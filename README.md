@@ -1,19 +1,8 @@
+# ![Logo](https://api.iconify.design/mdi\:cart-variant.svg?color=%231e88e5\&width=55) Merchandise Management System
 
-# 🌟 Merchandise Management System
-
-### ![Logo](https://api.iconify.design/mdi\:cart-variant.svg?color=%231e88e5\&width=55) **Angular + Spring Boot + MySQL**
+###  **Angular + Spring Boot + MySQL**
 
 A complete business-ready merchandise and ERP-like management system for handling **inventory, sales, suppliers, expenses, invoices, financial reports**, and more — built using **Angular**, **Spring Boot**, and **MySQL**.
-
----
-
-# 🎨 Logo
-
-Use this as your project logo:
-
-![ERP Logo Blue](https://api.iconify.design/mdi\:cart-variant.svg?color=%231e88e5\&width=180)
-
----
 
 # 🚀 Tech Stack
 
@@ -38,68 +27,54 @@ Use this as your project logo:
 
 # ⭐ Features
 
-### 📦 Inventory Management
-
-![Inventory](https://api.iconify.design/mdi\:package-variant-closed.svg?width=30\&color=%23007bff)
+# ![Inventory](https://api.iconify.design/mdi\:package-variant-closed.svg?width=30\&color=%23007bff)Inventory Management
 
 * Add / Update / Delete products
 * Product Categories & Brands
 * Stock-level monitoring
 * Handle Returns, Damage, Refurbished items
 
-### 🛒 Sales & Checkout
-
-![Sales](https://api.iconify.design/mdi\:cart-check.svg?width=30\&color=%23e91e63)
+# ![Sales](https://api.iconify.design/mdi\:cart-check.svg?width=30\&color=%23e91e63)Sales & Checkout
 
 * Add items to cart
 * Checkout process
 * Sales history
 * Auto stock deduction
 
-### 🧾 Invoice & PDF Generation
-
-![Invoice](https://api.iconify.design/mdi\:file-document.svg?width=30\&color=%23007bff)
+# ![Invoice](https://api.iconify.design/mdi\:file-document.svg?width=30\&color=%23007bff)Invoice & PDF Generation
 
 * Invoice listing
 * Printable PDF invoices
 * Invoice preview page
 
-### 🤝 Supplier Management
-
-![Supplier](https://api.iconify.design/mdi\:account-group.svg?width=30\&color=%234caf50)
+# ![Supplier](https://api.iconify.design/mdi\:account-group.svg?width=30\&color=%234caf50)Supplier Management
 
 * Supplier profile storage
 * Contact & company info
 
-### 💸 Expense Tracking
-
-![Expense](https://api.iconify.design/mdi\:cash-multiple.svg?width=30\&color=%23ff9800)
+# ![Expense](https://api.iconify.design/mdi\:cash-multiple.svg?width=30\&color=%23ff9800)Expense Tracking
 
 * Daily & monthly expense log
 * Total expense insights
 
-### 📊 Dashboard & Analytics
-
-![Dashboard](https://api.iconify.design/mdi\:view-dashboard.svg?width=30\&color=%23795548)
+#  ![Dashboard](https://api.iconify.design/mdi\:view-dashboard.svg?width=30\&color=%23795548)Dashboard & Analytics
 
 * Sales overview
 * Profit chart
 * KPI metrics
 
-### 🏦 Bank & Tax
+#  ![Bank](https://api.iconify.design/mdi\:bank.svg?width=30\&color=%23007bff)Bank & Tax
 
-![Bank](https://api.iconify.design/mdi\:bank.svg?width=30\&color=%23007bff)
+
 
 * Bank records
 * Tax summary and reports
 
-### 👤 User Profile
-
-![Profile](https://api.iconify.design/mdi\:account-cog.svg?width=30\&color=%238e24aa)
+#  ![Profile](https://api.iconify.design/mdi\:account-cog.svg?width=30\&color=%238e24aa)User Profile
 
 * User authentication
 * Profile update
-
+  
 ---
 
 # 📷 Screenshots
@@ -209,31 +184,3 @@ Use this as your project logo:
 database/
  └── schema.sql
 ```
-
----
-
-# 🛠 Installation & Setup
-
-### 1️⃣ Clone
-
-```sh
-git clone https://github.com/your-repo-url.git
-```
-
-### 2️⃣ Backend Setup
-
-```sh
-cd backend
-mvn spring-boot:run
-```
-
-### 3️⃣ Frontend Setup
-
-```sh
-cd frontend
-npm install
-ng serve
-```
-
-
-
