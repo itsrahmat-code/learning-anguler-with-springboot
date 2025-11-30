@@ -78,4 +78,48 @@ See screenshot: Dashboard & Main Features (Screenshot 48.png - Profit Chart)
 
 Export Sales, Stock, and Expense data as PDFs.
 
-See screenshot: Invoice Preview/PDF Generation (Screenshot 52.png, Screenshot 53.png)
+See screenshot: Invoice Preview/PDF Generation (Screenshot 52.png, Screenshot 53.png)## 🚀 Application Screenshots
+
+Get a quick visual overview of the key features and modules within the Global Tech ERP system.
+
+### Dashboard
+
+The main dashboard showing key performance indicators (KPIs) like Sales, Dues, Total Expenses, and a yearly Profit Chart.
+
+![Main application dashboard showing Sales, Dues, and a 2025 Profit Chart](screenshot/Dashboard_Main.png)
+
+### Invoices
+
+View the history of all invoices with details like date, customer, amount, tax, and due status.
+
+![Invoice history table listing all past invoices, customer details, and payment status](screenshot/invoice history.png)
+
+### Printable Invoice Preview
+
+A clean, professional view of a single invoice ready for printing or PDF download.
+
+![Full print preview of a single invoice, including company logo, line items, and payment summary](screenshot/Invoice_Preview_Full.png)
+
+### Expense Records
+
+Manage and track all company expenditures, including date, description, amount, and payment method.
+
+![Expense records table showing various recorded expenses with paid, due, and payment method details](screenshot/expance record.png)
+
+### Balance Sheet
+
+A high-level financial summary displaying total Assets, Liabilities, and Equity.
+
+![Balance Sheet summary showing breakdown of Assets, Liabilities, and Equity with total sums](screenshot/blancesheet.png)
+
+### COGS (Cost of Goods Sold) Input
+
+The form for accurately calculating the Cost of Goods Sold, including product cost, labour, and tax.
+
+![Input form for calculating COGS, including fields for date, quantity, product cost, and various fees](screenshot/cogs.png)
+
+### Bank & Tax Details
+
+Area for managing primary bank account information and generating tax reports.
+
+![Screen showing Account Holder, Bank Name, Account Number, and a button to Generate Tax Report](screenshot/bank details.png)
