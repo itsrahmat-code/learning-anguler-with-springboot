@@ -1,125 +1,239 @@
-💻 Merchandise Management System (Angular + Spring Boot + MySQL)
-A complete Angular + Spring Boot + MySQL based merchandise management application to help businesses efficiently manage stock, sales, suppliers, expenses, user profiles, and generate reports/PDFs.
 
-🚀 Tech Stack
-Frontend
-Angular
+# 🌟 Merchandise Management System
 
-TypeScript/JavaScript
+### ![Logo](https://api.iconify.design/mdi\:cart-variant.svg?color=%231e88e5\&width=55) **Angular + Spring Boot + MySQL**
 
-HTML/CSS (or SCSS)
+A complete business-ready merchandise and ERP-like management system for handling **inventory, sales, suppliers, expenses, invoices, financial reports**, and more — built using **Angular**, **Spring Boot**, and **MySQL**.
 
-(Optional: Bootstrap/Material UI)
+---
 
-Backend
-Spring Boot
+# 🎨 Logo
 
-Java (JPA, Hibernate)
+Use this as your project logo:
 
-RESTful APIs
+![ERP Logo Blue](https://api.iconify.design/mdi\:cart-variant.svg?color=%231e88e5\&width=180)
 
-Database
-MySQL
+---
 
-⭐ Features
-The application includes the following core functionalities, similar to the one shown in the screenshots:
+# 🚀 Tech Stack
 
-📦 Stock Management
-Add, Update, and Delete product items.
+### ![Angular](https://api.iconify.design/logos\:angular-icon.svg?width=30) **Frontend**
 
-Track available inventory and stock quantity.
+* Angular
+* TypeScript
+* HTML / SCSS
+* Bootstrap / Material UI
 
-See screenshot: Add New Product (Screenshot 56.png)
+### ![Spring](https://api.iconify.design/logos\:spring-icon.svg?width=30) **Backend**
 
-Manage product categories and brands.
+* Spring Boot
+* Java (JPA + Hibernate)
+* REST APIs
 
-See screenshot: Brand Management (Screenshot 58.png)
+### ![MySQL](https://api.iconify.design/logos\:mysql.svg?width=30) **Database**
 
-Handle Return and Damage products.
+* MySQL
 
-See screenshot: Return Products (Screenshot 55.png)
+---
 
-💰 Sales Management
-Create new sales entries (checkout process).
+# ⭐ Features
 
-See screenshots: Cart, Checkout & Sales (Screenshot 50.png, Screenshot 51.png)
+### 📦 Inventory Management
 
-View and manage sales history.
+![Inventory](https://api.iconify.design/mdi\:package-variant-closed.svg?width=30\&color=%23007bff)
 
-Automatic stock deduction after a successful sale.
+* Add / Update / Delete products
+* Product Categories & Brands
+* Stock-level monitoring
+* Handle Returns, Damage, Refurbished items
 
-Generate Invoices with detailed breakdowns (Subtotal, Discount, Tax, Paid, Due).
+### 🛒 Sales & Checkout
 
-See screenshots: Invoices (Screenshot 51.png, Screenshot 52.png)
+![Sales](https://api.iconify.design/mdi\:cart-check.svg?width=30\&color=%23e91e63)
 
-🤝 Supplier Management
-Add, Edit, and Manage supplier records.
+* Add items to cart
+* Checkout process
+* Sales history
+* Auto stock deduction
 
-See screenshot: Supplier List (Screenshot 57.png)
+### 🧾 Invoice & PDF Generation
 
-Store contact information (Contact Person, Phone, Email) and business details.
+![Invoice](https://api.iconify.design/mdi\:file-document.svg?width=30\&color=%23007bff)
 
-💸 Expense Management
-Track and log daily/monthly business expenses.
+* Invoice listing
+* Printable PDF invoices
+* Invoice preview page
 
-View a summary of Total Expenses.
+### 🤝 Supplier Management
 
-See screenshot: Dashboard & Main Features (Screenshot 48.png)
+![Supplier](https://api.iconify.design/mdi\:account-group.svg?width=30\&color=%234caf50)
 
-👤 User Profile & Security
-User Authentication (Login / Register).
+* Supplier profile storage
+* Contact & company info
 
-Profile page to Edit and Update user details.
+### 💸 Expense Tracking
 
-📄 PDF & Reports
-Generate comprehensive daily, weekly, and monthly Reports.
+![Expense](https://api.iconify.design/mdi\:cash-multiple.svg?width=30\&color=%23ff9800)
 
-See screenshot: Dashboard & Main Features (Screenshot 48.png - Profit Chart)
+* Daily & monthly expense log
+* Total expense insights
 
-Export Sales, Stock, and Expense data as PDFs.
+### 📊 Dashboard & Analytics
 
-See screenshot: Invoice Preview/PDF Generation (Screenshot 52.png, Screenshot 53.png)## 🚀 Application Screenshots
+![Dashboard](https://api.iconify.design/mdi\:view-dashboard.svg?width=30\&color=%23795548)
 
-Get a quick visual overview of the key features and modules within the Global Tech ERP system.
+* Sales overview
+* Profit chart
+* KPI metrics
 
-### Dashboard
+### 🏦 Bank & Tax
 
-The main dashboard showing key performance indicators (KPIs) like Sales, Dues, Total Expenses, and a yearly Profit Chart.
+![Bank](https://api.iconify.design/mdi\:bank.svg?width=30\&color=%23007bff)
 
-![Main application dashboard showing Sales, Dues, and a 2025 Profit Chart](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Dashboard_Main.png)
+* Bank records
+* Tax summary and reports
 
-### Invoices
+### 👤 User Profile
 
-View the history of all invoices with details like date, customer, amount, tax, and due status.
+![Profile](https://api.iconify.design/mdi\:account-cog.svg?width=30\&color=%238e24aa)
 
-![Invoice history table listing all past invoices, customer details, and payment status](screenshot/invoice history.png)
+* User authentication
+* Profile update
 
-### Printable Invoice Preview
+---
 
-A clean, professional view of a single invoice ready for printing or PDF download.
+# 📷 Screenshots
 
-![Full print preview of a single invoice, including company logo, line items, and payment summary](screenshot/Invoice_Preview_Full.png)
+## 🏠 Dashboard
 
-### Expense Records
+![Dashboard](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Dashboard_Main.png)
 
-Manage and track all company expenditures, including date, description, amount, and payment method.
+---
 
-![Expense records table showing various recorded expenses with paid, due, and payment method details](screenshot/expance record.png)
+## 🧾 Invoice System
+
+### Invoice History
+
+![Invoice History](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/invoice_history.png)
+
+### Invoice Preview
+
+![Invoice Preview](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Invoice_Preview_Full.png)
+
+### Print Invoice
+
+![Invoice Print](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Invoice_Print_Preview.png)
+
+---
+
+## 🛒 Sales Module
+
+### Add New Product
+
+![Add New Product](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Sales_Add_New_Product.png)
+
+### Stock Cart
+
+![Stock Cart](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Sales_Stock_Cart.png)
+
+### Checkout
+
+![Checkout](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Sales_Checkout_Details.png)
+
+### Brand Management
+
+![Brand Management](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Sales_Brand_Management.png)
+
+---
+
+## 📦 Product & Stock
+
+### Category Management
+
+![Category](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/category.png)
+
+### Return Products
+
+![Returns](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Return_Products_List.png)
+
+### Refurbished Products
+
+![Refurbished Stock](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/refurbished_stock.png)
+
+---
+
+## 🤝 Supplier
+
+![Supplier List](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/People_Supplier_List.png)
+
+---
+
+## 💸 Expenses
+
+![Expense](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/expance.png)
+
+---
+
+## 📊 Financial Reports
 
 ### Balance Sheet
 
-A high-level financial summary displaying total Assets, Liabilities, and Equity.
+![Balance Sheet](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/blancesheet.png)
 
-![Balance Sheet summary showing breakdown of Assets, Liabilities, and Equity with total sums](screenshot/blancesheet.png)
+### COGS
 
-### COGS (Cost of Goods Sold) Input
+![COGS](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/cogs.png)
 
-The form for accurately calculating the Cost of Goods Sold, including product cost, labour, and tax.
+### Bank Details
 
-![Input form for calculating COGS, including fields for date, quantity, product cost, and various fees](screenshot/cogs.png)
+![Bank Details](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/bank_details.png)
 
-### Bank & Tax Details
+---
 
-Area for managing primary bank account information and generating tax reports.
+# 🏗 Project Structure
 
-![Screen showing Account Holder, Bank Name, Account Number, and a button to Generate Tax Report](screenshot/bank details.png)
+```
+/frontend (Angular)
+ ├── components/
+ ├── services/
+ ├── models/
+ └── assets/screenshots/
+
+/backend (Spring Boot)
+ ├── controller/
+ ├── service/
+ ├── repository/
+ ├── entity/
+ └── dto/
+
+database/
+ └── schema.sql
+```
+
+---
+
+# 🛠 Installation & Setup
+
+### 1️⃣ Clone
+
+```sh
+git clone https://github.com/your-repo-url.git
+```
+
+### 2️⃣ Backend Setup
+
+```sh
+cd backend
+mvn spring-boot:run
+```
+
+### 3️⃣ Frontend Setup
+
+```sh
+cd frontend
+npm install
+ng serve
+```
+
+
+
