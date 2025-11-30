@@ -86,7 +86,7 @@ Get a quick visual overview of the key features and modules within the Global Te
 
 The main dashboard showing key performance indicators (KPIs) like Sales, Dues, Total Expenses, and a yearly Profit Chart.
 
-![Main application dashboard showing Sales, Dues, and a 2025 Profit Chart](screenshot/Dashboard_Main.png)
+![Main application dashboard showing Sales, Dues, and a 2025 Profit Chart](https://github.com/itsrahmat-code/learning-anguler-with-springboot/blob/main/screenshots/Dashboard_Main.png)
 
 ### Invoices
 
