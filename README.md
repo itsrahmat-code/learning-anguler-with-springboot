@@ -1,117 +1,81 @@
-# AngularWithSpringBoot
+💻 Merchandise Management System (Angular + Spring Boot + MySQL)
+A complete Angular + Spring Boot + MySQL based merchandise management application to help businesses efficiently manage stock, sales, suppliers, expenses, user profiles, and generate reports/PDFs.
 
-This repository contains my personal learning notes, tutorials, and projects integrating **Angular** (frontend) with **Spring Boot** (backend). It serves as a reference guide and practice space as I explore full-stack development using these powerful technologies.
+🚀 Tech Stack
+Frontend
+Angular
 
----
+TypeScript/JavaScript
 
-## 📚 Contents
+HTML/CSS (or SCSS)
 
-The repository is structured into two main sections:
+(Optional: Bootstrap/Material UI)
 
-1. **Learning Resources**
-   - Notes on key concepts in Angular and Spring Boot
-   - Sample code snippets and mini examples
-   - Configuration tips (e.g., CORS setup, REST API handling)
+Backend
+Spring Boot
 
-2. **Projects**
-   - Full-stack applications using Angular (frontend) + Spring Boot (backend)
-   - RESTful API integration examples
-   - Authentication/authorization (JWT)
-   - Form handling, HTTP client, routing, services
-   - Deployment scripts or guides (optional)
+Java (JPA, Hibernate)
 
----
-# AngularWithSpringBoot
+RESTful APIs
 
-This repository contains my personal learning notes, tutorials, and projects integrating **Angular** (frontend) with **Spring Boot** (backend). It serves as a reference guide and practice space as I explore full-stack development using these powerful technologies.
+Database
+MySQL
 
----
+⭐ Features
+The application includes the following core functionalities, similar to the one shown in the screenshots:
 
-## 📚 Contents
+📦 Stock Management
+Add, Update, and Delete product items.
 
-The repository is structured into different sections to help navigate the learning materials and projects:
+Track available inventory and stock quantity.
 
-### 1. Learning Resources
-* Notes on key concepts in **Angular** and **Spring Boot**.
-* Configuration tips (e.g., CORS setup, REST API handling).
+See screenshot: Add New Product (Screenshot 56.png)
 
-### 2. Full-Stack Projects
-* Full-stack applications using Angular (frontend) + Spring Boot (backend).
-* **RESTful API** integration examples.
-* Authentication/authorization (JWT).
+Manage product categories and brands.
 
----
+See screenshot: Brand Management (Screenshot 58.png)
 
-## 🚀 Technologies Used
+Handle Return and Damage products.
 
-| Category | Key Technologies |
-| :--- | :--- |
-| **Frontend** | **Angular**, TypeScript, Angular CLI, Bootstrap/Material |
-| **Backend** | **Spring Boot**, Java, Spring Web, Spring Data JPA, Spring Security |
-| **Database** | MySQL / PostgreSQL (or H2 for development) |
+See screenshot: Return Products (Screenshot 55.png)
 
----
+💰 Sales Management
+Create new sales entries (checkout process).
 
-## 💡 Featured Project: Inventory Management System
+See screenshots: Cart, Checkout & Sales (Screenshot 50.png, Screenshot 51.png)
 
-The following images showcase a fully functional **Inventory and Sales Management System** built using this Angular and Spring Boot stack.
+View and manage sales history.
 
-### 1. Dashboard & Reports
-The main Dashboard provides a quick overview of key metrics like today's sales, outstanding dues, and a profit chart.
+Automatic stock deduction after a successful sale.
 
-![Dashboard with Sales, Dues, and Profit Chart](screenshots/Screenshot (48).png)
+Generate Invoices with detailed breakdowns (Subtotal, Discount, Tax, Paid, Due).
 
-### 2. Sales and Invoicing
-The system handles the complete sales workflow, from adding products to the cart to generating a formal invoice.
+See screenshots: Invoices (Screenshot 51.png, Screenshot 52.png)
 
-* **Stock View and Cart**: Browsing products and adding them to the sales cart.
-    ![Stock View and Cart](screenshots/Screenshot (50).png)
+🤝 Supplier Management
+Add, Edit, and Manage supplier records.
 
-* **Invoice Creation**: Details of the sale, including tax, discount, and amount paid.
-    ![Invoice Creation Screen](screenshots/Screenshot (51).png)
+See screenshot: Supplier List (Screenshot 57.png)
 
-* **Final Invoice Preview**: The generated invoice document.
-    ![Final Invoice Preview](screenshots/Screenshot (52).png)
+Store contact information (Contact Person, Phone, Email) and business details.
 
-### 3. Product and Inventory Management
-Modules for adding new products and tracking returns/damages.
+💸 Expense Management
+Track and log daily/monthly business expenses.
 
-* **Add New Product**: Central form for product data entry.
-    ![Add New Product Form](screenshots/Screenshot (56).png)
+View a summary of Total Expenses.
 
-* **Return Products**: Tracking returned or damaged items.
-    ![Return Products Table](screenshots/Screenshot (55).png)
+See screenshot: Dashboard & Main Features (Screenshot 48.png)
 
-### 4. People Management
-Dedicated sections for managing core business entities like suppliers and brands.
+👤 User Profile & Security
+User Authentication (Login / Register).
 
-* **Supplier List**: Tracking supplier information.
-    ![Supplier List](screenshots/Screenshot (57).png)
+Profile page to Edit and Update user details.
 
-* **Brand Management**: CRUD operations for product brands.
-    ![Brand Management List](screenshots/Screenshot (58).png)
+📄 PDF & Reports
+Generate comprehensive daily, weekly, and monthly Reports.
 
----
+See screenshot: Dashboard & Main Features (Screenshot 48.png - Profit Chart)
 
-## 🗂️ Project Structure Example
-## 🚀 Technologies Used
+Export Sales, Stock, and Expense data as PDFs.
 
-### Frontend:
-- [Angular](https://angular.io/)
-- TypeScript
-- Angular CLI
-- Bootstrap / Angular Material (if used)
-
-### Backend:
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- Java
-- Spring Web
-- Spring Data JPA
-- Spring Security (if used)
-- Hibernate
-- MySQL / PostgreSQL (or H2 for dev)
-
----
-
-## 🗂️ Project Structure Example
-
+See screenshot: Invoice Preview/PDF Generation (Screenshot 52.png, Screenshot 53.png)
